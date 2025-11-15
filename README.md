@@ -26,11 +26,6 @@ cd flowsint
 make prod
 ```
 
-## Mistral AI
-- To use Mistral AI you need to add your API Key in your environment variable.
-- Environment Variable name for Mistral AI is `MISTRAL_API_KEY`. For fresh setup add your key in `.env.example` file.
-- If you have already built your environment, stop your instance using `make stop`, add `MISTRAL_API_KEY=<YOUR_API_KEY>` in `.env` file, then start using `make prod`.
-  
 Then go to [http://localhost:5173/register](http://localhost:5173/register) and create an account. There are no credentials or account by default.
 
 
